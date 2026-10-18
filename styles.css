@@ -62,12 +62,8 @@ nav a:not(.btn) { display: none; }
 
 /* Hero */
 .hero { background: var(--navy); color: #dfe6f5; padding: 72px 0 80px; }
-.hero-grid { display: grid; gap: 40px; align-items: center; }
-.hero-mark { display: none; width: 180px; opacity: .9; justify-self: center; }
-@media (min-width: 860px) {
-  .hero-grid { grid-template-columns: 1fr 240px; }
-  .hero-mark { display: block; }
-}
+.hero-grid > div { max-width: 820px; }
+
 .eyebrow { text-transform: uppercase; letter-spacing: .14em; font-size: .8rem; font-weight: 600; color: #9fb4e6; }
 .lede { font-size: 1.15rem; max-width: 40em; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }

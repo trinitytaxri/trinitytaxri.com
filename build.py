@@ -194,7 +194,6 @@ TEMPLATE = """<!doctype html>
           <a href="#fees" class="btn btn-ghost">{btn2}</a>
         </div>
       </div>
-      <img class="hero-mark" src="assets/mark-white.png" alt="" width="219" height="323">
     </div>
   </section>
 
