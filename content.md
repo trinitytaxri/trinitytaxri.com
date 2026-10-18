@@ -9,13 +9,13 @@ HOW TO EDIT
 -->
 
 # Settings
-Page title: Trinity Tax Group LLC | Tax Preparation in South County, RI
-Description: Tax preparation, bookkeeping, and tax planning for individuals and small businesses in Washington County, RI and southeastern Connecticut.
+Page title: Trinity Tax Group LLC | Serving South County, RI
+Description: Tax preparation, planning, and bookkeeping for individuals and small businesses
 Formspree ID: mbgdkzaj
 Email subject: New request from trinitytaxri.com
 
 # Hero
-Eyebrow: South County, Rhode Island
+Eyebrow: Serving the Ocean State and beyond
 Headline: Taxes don't have to be taxing.
 Intro: Tax preparation, planning, and bookkeeping for households and small businesses. In person or remote, year-round.
 Main button: Request an appointment
@@ -40,7 +40,7 @@ Intro: Published up front so you know the cost before we start. Your final quote
 Small print: Tax fees apply to the 2027 filing season (2026 tax year).
 
 ## Tax preparation
-| Individual federal return with all state returns | $150 |
+| Individual federal return with all state returns | from $150 |
 | Partnership or S-corp return | from $800 |
 
 ## Bookkeeping and planning
@@ -53,9 +53,9 @@ Small print: Tax fees apply to the 2027 filing season (2026 tax year).
 # About
 Heading: About
 
-I'm Ryan Kilpatrick. I've spent my 15+ year career in federal contracting, public-sector, and nonprofit finance. As much as I love numbers and mathematics, I love working with people even more. Superior customer service and fair pricing are my driving forces. You deserve both.
+I'm Ryan Kilpatrick. Since 2025, I've been offering tax preparation and planning services for individuals and businesses. Superior customer service and fair pricing are my driving forces. You deserve both.
 
-I have a Bachelor of Science degree in Accounting from the University of Rhode Island and currently hold the Certified Management Accountant (CMA) credential. You work with me directly, not a seasonal hire.
+I have a B.S. in Accounting from the University of Rhode Island and currently hold the Certified Management Accountant (CMA) credential. You work with me directly, not a seasonal hire.
 
 - IRS-registered tax preparer (PTIN) and authorized e-file provider
 - Errors and omissions (E&O) insured
