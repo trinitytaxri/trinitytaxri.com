@@ -18,7 +18,7 @@ Email subject: New request from trinitytaxri.com
 Eyebrow: Serving the Ocean State and beyond
 Headline: Taxes don't have to be taxing.
 Intro: Tax preparation, planning, and bookkeeping for households and small businesses. In person or remote, year-round.
-Main button: Request an appointment
+Main button: Get a Quote
 Second button: Fees
 Booking button: Book a Free Consultation
 Booking link: https://calendar.proton.me/bookings#-ggHQP0bs3UqW6xZ-Bfem8w5AFBrIxmVpZGP8DtV7wg=
@@ -70,12 +70,12 @@ Heading: How it works
 3. **Upload securely.** Once you sign, you'll get a link to a secure portal for your documents. Please DO NOT email tax documents or Social Security numbers.
 
 # Form
-Heading: Request an appointment
+Heading: Get a quote
 Intro: Tell me a little about your situation and I'll be in touch.
 Warning: **Please don't include** Social Security numbers, account numbers, or tax documents in this form. Those go through the secure portal after we've agreed to work together.
 Message label: Anything else I should know?
 Message hint: For example: first year self-employed, bought a rental last spring, books are a few months behind.
-Button: Send request
+Button: Send Request
 Success message: Thanks. Your request is on its way, and I'll reply by email.
 
 ## What do you need help with?

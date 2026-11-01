@@ -180,7 +180,7 @@ TEMPLATE = """<!doctype html>
       <a href="#services">{svc_h}</a>
       <a href="#fees">{fees_h}</a>
       <a href="#about">{about_h}</a>
-      <a href="#contact" class="btn btn-small">Get started</a>
+      <a href="#contact" class="btn btn-small">Get Started</a>
     </nav>
   </div>
 </header>
