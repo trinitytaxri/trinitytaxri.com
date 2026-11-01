@@ -5,7 +5,7 @@ from pathlib import Path
 HERE = Path(__file__).parent
 FIELD = re.compile(r"^([A-Z][A-Za-z ]{1,30}):\s+(.*)$")
 KNOWN = {"page title", "description", "formspree id", "email subject", "eyebrow", "headline", "intro",
-         "main button", "second button", "heading", "note", "small print", "warning", "message label",
+         "main button", "second button", "booking button", "booking link", "heading", "note", "small print", "warning", "message label",
          "message hint", "button", "success message", "type", "business name", "location"}
 
 
@@ -110,6 +110,10 @@ def build(s):
                   "\n        </ul>") if about.items else ""
     steps = "\n".join(f"        <li>{inline(i)}</li>" for i in how.ordered)
 
+    book_url = hero.get("booking link")
+    booking = (f'\n          <a href="{attr(book_url)}" class="btn btn-ghost" target="_blank" rel="noopener noreferrer">'
+               f'{inline(hero.get("booking button", "Book a consultation"))}</a>') if book_url else ""
+
     checks, selects = [], []
     for q in form.subs:
         kind = q.get("type", "checkboxes").lower()
@@ -135,7 +139,7 @@ def build(s):
         title=attr(st.get("page title")), desc=attr(st.get("description")),
         form_id=attr(st.get("formspree id", "YOUR_FORM_ID")), subject=attr(st.get("email subject")),
         eyebrow=inline(hero.get("eyebrow")), headline=inline(hero.get("headline")), intro=inline(hero.get("intro")),
-        btn1=inline(hero.get("main button")), btn2=inline(hero.get("second button")),
+        btn1=inline(hero.get("main button")), booking=booking, btn2=inline(hero.get("second button")),
         svc_h=inline(svc.get("heading", "Services")), cards=cards, svc_note=inline(svc.get("note")),
         fees_h=inline(fees.get("heading", "Fees")), fees_intro=inline(fees.get("intro")),
         fees_small=inline(fees.get("small print")), tables="\n".join(tables),
@@ -190,7 +194,7 @@ TEMPLATE = """<!doctype html>
         <h1>{headline}</h1>
         <p class="lede">{intro}</p>
         <div class="hero-actions">
-          <a href="#contact" class="btn">{btn1}</a>
+          <a href="#contact" class="btn">{btn1}</a>{booking}
           <a href="#fees" class="btn btn-ghost">{btn2}</a>
         </div>
       </div>

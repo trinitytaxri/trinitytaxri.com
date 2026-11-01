@@ -20,6 +20,8 @@ Headline: Taxes don't have to be taxing.
 Intro: Tax preparation, planning, and bookkeeping for households and small businesses. In person or remote, year-round.
 Main button: Request an appointment
 Second button: Fees
+Booking button: Book a Free Consultation
+Booking link: https://calendar.proton.me/bookings#-ggHQP0bs3UqW6xZ-Bfem8w5AFBrIxmVpZGP8DtV7wg=
 
 # Services
 Heading: Services
@@ -63,7 +65,7 @@ I have a B.S. in Accounting from the University of Rhode Island and currently ho
 # How it works
 Heading: How it works
 
-1. **Send a request.** Use the form below to tell me what you need. It takes about two minutes.
+1. **Send a request.** Use the form below to tell me what you need. It takes about two minutes. Prefer to talk first? Book a free consultation using the button at the top of the page.
 2. **Get a quote.** I'll reply by email with any questions, a fee quote, and an engagement letter.
 3. **Upload securely.** Once you sign, you'll get a link to a secure portal for your documents. Please DO NOT email tax documents or Social Security numbers.
 
